@@ -42,6 +42,8 @@ module "iglu_server" {
   telemetry_enabled = var.telemetry_enabled
   user_provided_id  = var.user_provided_id
 
+  associate_public_ip_address = false
+
   labels = var.labels
 }
 
